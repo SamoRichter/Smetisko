@@ -1,0 +1,25 @@
+:root {
+    --farba1: rgb(231, 123, 0);
+  }
+  
+
+header h1{
+    color: var(--farba1);
+    font-weight: lighter;
+
+}
+header h3 {
+    font-weight: lighter;
+}
+header {
+    text-align: center;
+    border-bottom: solid 1px grey;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+html {
+    color: gray;
+}
