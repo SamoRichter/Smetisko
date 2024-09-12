@@ -1,15 +1,16 @@
 :root {
     --farba1: rgb(231, 123, 0);
     --farba2: rgba(128, 128, 128, 0.541);
-    --farba3:  rgba(128, 128, 128);
-    --farba4: rgb(75, 75, 75);
+    --farba3:  rgb(85, 85, 85);
+    --farba4: rgb(49, 49, 49);
   }
   
   html {
     color: var(--farba3);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30%;
-    margin-right: 30%;
+    font-family: Helvetica;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 20px;
     
     
 }
@@ -34,13 +35,13 @@ header {
 
 section .text p {
     
-    font-size: 20px;
+    font-size: 18px;
     font-weight: lighter;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
     border-bottom: solid 1px var(--farba2);
     
 }
@@ -52,11 +53,22 @@ section .box  {
 section h3 {
     color: var(--farba1);
     font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 section h4 {
     font-weight: lighter;
     color: var(--farba4);
+    padding-bottom: 5px;
 }
 section p, li {
     font-size: 13px;
+
+}
+section ul {
+  padding-bottom: 15px;  
+  padding-top: 15px;
+}
+h4 {
+    font-size: 17px;
 }
