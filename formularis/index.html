@@ -13,24 +13,24 @@
         <form action="">
             <div class="riadok">
                 <div class="text">
-                    <label for="fname">Meno</label>
+                    <label for="fname">Meno:</label>
                 </div>
                 <div class="input">
-                    <input type="text" id="fname" name="Meno" placeholder="Tvoje meno.." required>
+                    <input type="text" id="fname" name="Meno"  required>
                 </div>
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="lname">Priezvisko</label>
+                    <label for="lname">Priezvisko:</label>
                 </div>
                 <div class="input">
-                    <input type="text" id="lname" name="Priezvisko" placeholder="Tvoje priezvisko.." required>
+                    <input type="text" id="lname" name="Priezvisko"  required>
                 </div>
             </div>
 
             <div class="riadok">
                 <div class="text">
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label>
                 </div>
                 <div class="input">
                     <input type="email" id="email" name="Email" pattern=".+@example\.com" required >
@@ -38,7 +38,7 @@
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="pass">Heslo</label>
+                    <label for="pass">Heslo:</label>
                 </div>
                 <div class="input">
                     <input type="password" id="pass" name="Heslo" required >
@@ -47,38 +47,36 @@
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="password_confirm">Potvrdenie hesla</label>
+                    <label for="password_confirm">Potvrdenie hesla:</label>
                 </div>
                 <div class="input">
                     <input type="password" id="password_confirm" name="Potvrdenie Hesla"required >
                 </div>
                
             </div> 
-            <div class="riadok">
+            <div class="riadok" >
                 <div class="text">
-                    <label for="pohlavie">Pohlavie</label>
+                    <label for="pohlavie">Pohlavie:</label>
                 </div>
                 <div class="input">
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                    <label for="html">HTML</label>
-                    <input type="radio" id="css" name="fav_language" value="CSS">
-                    <label for="css">CSS</label>
+                    <hr><input class="pohlavie" type="radio" id="html" name="fav_language" value="Muž"> Muž
+                    <input class="pohlavie" type="radio" id="css" name="fav_language" value="CSS"> Žena  <hr>
                 </div>
                
             </div>   
             <div class="riadok">
                 <div class="input">
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" required>
+                    <input class="pohlavie" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" required >
                     <label for="vehicle1"> Súhlasím s podmienkami</label>
                 </div>
                
             </div> 
             <div class="riadok">
                 <div class="text">
-                  <label for="krajina">Krajina</label>
+                  <label for="krajina">Krajina:</label>
                 </div>
                 <div class="input">
-                  <select id="krajina" name="Krajina" required>
+                  <select id="krajina" name="Krajina" required style="width: 500px; height: 44px; border-radius: 5px;">
                     <option value="Slovensko">Slovensko</option>
                     <option value="Česko">Česko</option>
                     <option value="Maďarsko">Maďarsko :c</option>
@@ -88,14 +86,14 @@
               </div>
               <div class="riadok">
                 <div class="text">
-                  <label for="poznamky">Poznámky</label>
+                  <label for="poznamky">Poznámky:</label>
                 </div>
                 <div class="input">
-                  <textarea id="poznamky" name="subject" style="height:200px"></textarea>
+                  <textarea id="poznamky" name="subject" style="height:150px; width:500px;border-radius: 5px;" ></textarea>
                 </div>
               </div>
               <div class="riadok">
-                <input type="submit" value="Odoslať">
+                <input class="button" type="submit" value="Odoslať">
               </div>
         </form>
     </div>

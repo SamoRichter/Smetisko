@@ -1,7 +1,42 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-h1 {
-    color: rgb(36, 113, 255);
+h1{
+    color: rgb(87, 146, 255);
+    text-align: center;
+}
+.text, label {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px  ;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid darkgrey;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 20px 0px;
+
+}
+
+.button {
+    background-color: rgb(87, 146, 255);
+    color: white;
+}
+.input {
+    margin: 5px;
+}
+.pohlavie {
+    width: 10%;
+}
+select, textarea {
+    background-color: rgba(235, 247, 255, 0.678);
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+hr {
+    color: rgb(247, 247, 247);
 }
