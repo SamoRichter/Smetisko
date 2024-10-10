@@ -42,7 +42,7 @@
     echo "nemôžem voliť"; 
    }
  */ 
-      $slnko = false;
+      $slnko = true;
    $teplota = 23;
 
    if ($slnko == true && $teplota >=15 && $teplota <= 25) {
