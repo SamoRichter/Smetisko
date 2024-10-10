@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stranka</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      h1 {
+        color: rgb(87, 146, 255);
+        text-align: center;
+        margin-bottom: 5%;
+      }
+
+      .text,
+      label {
+        font-weight: bold;
+      }
+
+      input {
+        border-radius: 0.5em;
+        background-color: rgb(247, 247, 247);
+        border: 1px solid darkgrey;
+        width: 100%;
+        padding: 2% 2%;
+        margin: 5% 0%;
+      }
+
+      .button {
+        background-color: rgb(87, 146, 255);
+        color: white;
+      }
+
+      .input {
+        margin: 0.25em;
+      }
+
+      .pohlavie {
+        width: 10%;
+      }
+
+      select,
+      textarea {
+        background-color: rgba(235, 247, 255, 0.678);
+        margin: 0.5em 0;
+      }
+
+      hr {
+        color: rgb(247, 247, 247);
+      }
+
+      .formular {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-dark row p-3"
+        aria-label="Fourth navbar example"
+      >
+        <div class="container ms-3">
+          <a href="index.html" class="navbar-brand"
+            ><strong>Samuel Richter</strong></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 ms-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Domov</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="omne.html"
+                  >O mne</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="kontakt.html"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 me-4">
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">Prihlásiť sa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1">
+      <div class="formular">
+        <form action="">
+          <br />
+          <h1>Registrácia</h1>
+
+          <div class="riadok">
+            <div class="text">
+              <label for="fname">Používateľské meno:</label>
+            </div>
+            <div class="input">
+              <input type="text" id="name" name="Meno" required />
+            </div>
+          </div>
+
+          <div class="riadok">
+            <div class="text">
+              <label for="email">Email:</label>
+            </div>
+            <div class="input">
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                pattern=".+@example\.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="riadok">
+            <div class="text">
+              <label for="pass">Heslo:</label>
+            </div>
+            <div class="input">
+              <input type="password" id="pass" name="Heslo" required />
+            </div>
+          </div>
+
+          <div class="riadok">
+            <div class="text">
+              <label for="password_confirm">Potvrdenie hesla:</label>
+            </div>
+            <div class="input">
+              <input
+                type="password"
+                id="password_confirm"
+                name="Potvrdenie Hesla"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="riadok m-1">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="terms"
+                required
+              />
+              <label class="form-check-label" for="terms"
+                >Súhlasím s podmienkami</label
+              >
+            </div>
+            <br />
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="remember" />
+                <label class="form-check-label" for="remember"
+                  >Zapamätať si heslo</label
+                >
+              </div>
+              <a href="#" class="ms-auto">Zabudnuté heslo?</a>
+            </div>
+          </div>
+
+          <div class="riadok">
+            <div class="text">
+              <label for="poznamky">Poznámky:</label>
+            </div>
+            <div class="input">
+              <textarea
+                id="poznamky"
+                name="subject"
+                style="height: 5em; width: 30em; border-radius: 0.5em"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="riadok">
+            <input class="button" type="submit" value="Odoslať" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="text-white pt-1 text-center mt-auto">
+        <div class="container">
+            <a href="#top" id="scrollToTop" class="btn btn-primary bg-dark"
+            >Späť na začiatok</a>
+            <div class="row">
+                <div class="text-center mt-2" >
+                    <h5>Sociálne siete</h5>
+                    <a class="m-3 text-white fs-3" href="https://facebook.com" target="_blank" class="text-white mr-2"><i class="fa-brands fa-facebook"></i></a> 
+                    <a class="m-3 text-white fs-3" href="https://twitter.com" target="_blank" class="text-white mr-2"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="m-3 text-white fs-3" href="https://instagram.com" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            <div class="text-center mt-1">
+                <p>&copy; 2024 Moja Stranka. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
