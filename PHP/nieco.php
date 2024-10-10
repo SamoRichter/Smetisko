@@ -26,6 +26,9 @@
   if ($vek >= 18 && $obcianstvo == "slovenske" ){
     echo "môžeme vstúpiť";
   }
+  else {
+    echo "nemôžeme vstúpiť"; 
+  }
 
 
     ?>
