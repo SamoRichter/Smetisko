@@ -21,7 +21,7 @@
   //  }
 
   $vek = 78;
-  $obcianstvo = 'slovensko';
+  $obcianstvo = 'slovenske';
 
   if ($vek >= 18 && $obcianstvo == "slovenske" ){
     echo "môžem voliť";
