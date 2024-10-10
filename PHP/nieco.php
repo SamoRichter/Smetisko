@@ -42,11 +42,11 @@
     echo "nemôžem voliť"; 
    }
  */ 
-    $slnko = true;
+    $dazd = true;
     $teplota = 23;
     $vietor = true;
 
-   if ($slnko == true && $teplota >=15 && $teplota <= 25 && $vietor == false) {
+   if ($dazd == false && $teplota >=15 && $teplota <= 25 && $vietor == false) {
     echo "môžem ist";
    }
    else {
