@@ -33,7 +33,7 @@
 */
 
    $admin = false;
-   $prihlaseny = true;
+   $prihlaseny = false;
 
    if ($admin == true || $prihlaseny == true){
     echo "môžeme vstúpiť";
