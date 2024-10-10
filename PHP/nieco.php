@@ -31,7 +31,7 @@
    }
 
 */
-
+/*
    $admin = true;
    $prihlaseny = false;
 
@@ -40,6 +40,16 @@
    }
    else {
     echo "nemôžem voliť"; 
+   }
+ */ 
+      $slnko = false;
+   $teplota = 23;
+
+   if ($slnko == true || $teplota >=15 && $teplota <= 25) {
+    echo "môžem ist";
+   }
+   else {
+    echo "nemôžem ist"; 
    }
 
 
