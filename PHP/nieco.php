@@ -10,14 +10,14 @@
 
     <?php
 
-    $vek = 18;
+    $vek = 78;
 
-    if($vek >= 18){
-        echo "môžeme vstúpiť"
+    if($vek >= 18  && $vek < 56  ){
+        echo "môžeme vstúpiť";
 
     }
     else {
-        echo "nemôžeme vstúpiť"
+        echo "nemôžeme vstúpiť";
     }
 
 
