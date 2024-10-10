@@ -42,6 +42,7 @@
     echo "nemôžem voliť"; 
    }
  */ 
+/*
     $dazd = true;
     $teplota = 23;
     $vietor = true;
@@ -51,6 +52,17 @@
    }
    else {
     echo "nemôžem ist"; 
+   }
+*/
+
+   $cislo1 = 15;
+   $cislo2 = 15;
+
+   if ($cislo1 == $cislo2) {
+    echo "su rovnake";
+   } 
+   else {
+    echo "niesu rovnake";
    }
 
 
