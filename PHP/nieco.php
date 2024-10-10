@@ -56,7 +56,7 @@
 */
 
    $cislo1 = 15;
-   $cislo2 = 13;
+   $cislo2 = 15.5;
 
    if ($cislo1 == $cislo2) {
     echo "su rovnake";
