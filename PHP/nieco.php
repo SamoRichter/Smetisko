@@ -32,7 +32,7 @@
 
 */
 
-   $admin = false;
+   $admin = true;
    $prihlaseny = false;
 
    if ($admin == true || $prihlaseny == true){
