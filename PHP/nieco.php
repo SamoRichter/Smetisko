@@ -45,7 +45,7 @@
       $slnko = false;
    $teplota = 23;
 
-   if ($slnko == true || $teplota >=15 && $teplota <= 25) {
+   if ($slnko == true && $teplota >=15 && $teplota <= 25) {
     echo "môžem ist";
    }
    else {
