@@ -9,26 +9,39 @@
 
 
     <?php
+/*
+    $vek = 78;
 
-  //  $vek = 78;
+    if($vek >= 18  && $vek < 56  ){
+     echo "môžeme vstúpiť";
 
-  //  if($vek >= 18  && $vek < 56  ){
-  //    echo "môžeme vstúpiť";
+   }
+   else {
+      echo "nemôžeme vstúpiť";
+    }
 
-  //}
-  //  else {
-  //     echo "nemôžeme vstúpiť";
-  //  }
+   $vek = 78;
+   $obcianstvo = 'slovenske';
 
-  $vek = 78;
-  $obcianstvo = 'slovenske';
-
-  if ($vek >= 18 && $obcianstvo == "slovenske" ){
+   if ($vek >= 18 && $obcianstvo == "slovenske" ){
     echo "môžem voliť";
-  }
-  else {
+   }
+   else {
     echo "nemôžem voliť"; 
-  }
+   }
+
+*/
+
+   $admin = false;
+   $prihlaseny = true;
+
+   if ($admin == true || $prihlaseny == true){
+    echo "môžeme vstúpiť";
+   }
+   else {
+    echo "nemôžem voliť"; 
+   }
+
 
 
     ?>
