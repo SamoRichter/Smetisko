@@ -36,10 +36,7 @@
                 <p>SEO je kľúčové pre získanie návštevnosti z vyhľadávačov. Naučte sa základy optimalizácie pre vyhľadávače.</p>
             </article>
         </section>
-    </main>
 
-    <footer>
-        <p>© 2024 Moja Webová Stránka. Všetky práva vyhradené.</p>
-    </footer>
-</body>
-</html>
+        <?php
+    include "assets/partials/footer.php";
+?>
