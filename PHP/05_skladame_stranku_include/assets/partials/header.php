@@ -11,10 +11,10 @@
         <h1>Moja Webová Stránka</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Úvod</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="o-mne.html">O mne</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="index.php">Úvod</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="o-mne.php">O mne</a></li>
+                <li><a href="kontakt.php">Kontakt</a></li>
             </ul>
         </nav>
     </header>
