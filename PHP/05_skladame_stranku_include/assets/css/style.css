@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Základné nastavenia */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+img{
+    object-fit: cover;
+    
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+    max-width: 600px;
+}
+
+.bio h2 {
+    color: #4CAF50;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.services h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service {
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4CAF50; /* Farba pozadia päty */
+    color: #EADEDA; /* Farba textu */
+    text-align: center; /* Zarovnanie textu na stred */
+    padding: 20px; /* Padding okolo textu */
+    position: relative; /* Pozícia pre footer */
+    bottom: 0; /* Umiestnenie na spodok */
+    width: 100%; /* Šírka päty */
+}
+
+footer a {
+    color: #FFD400; /* Farba odkazov */
+    text-decoration: none; /* Odstránenie podčiarknutia */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Podčiarknutie pri hover */
+}
