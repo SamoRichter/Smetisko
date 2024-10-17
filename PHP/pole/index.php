@@ -12,7 +12,7 @@
     // Vytvorenie indexovaného poľa
     //
 
-    $mesiaceRoku = ['januar','februar','marec','april','maj','jun','jul','august','september','oktober','november','december'];
+    $mesiaceRoku = ['januar','februar','marec','april','maj','jun','jul','august','september','oktober','november','december',];
 
     $rozneTypy = [1,'kamarat',3.14159];
     //
@@ -50,15 +50,13 @@
 
     //
     //výpis prvku
-    //
 
-    echo "Zimne mesiace su: " . $mesiaceRoku[11] . " " . $mesiaceRoku[0] . " " . $mesiaceRoku[1] . ".";
+    $jar = "Jarne mesiace su: " . $mesiaceRoku[2] . ", " . $mesiaceRoku[3] . ", " . $mesiaceRoku[4] . "." ;
+    $leto = "Letne mesiace su: " .  $mesiaceRoku[5] . ", " . $mesiaceRoku[6] . ", " . $mesiaceRoku[7] . "." ;
+    $jesen = "Jesenne mesiace su: " .  $mesiaceRoku[8] . ", " . $mesiaceRoku[9] . ", " . $mesiaceRoku[10] . "." ;
+    $zima = "Zimne mesiace su: " .  $mesiaceRoku[11] . ", " . $mesiaceRoku[0] . ", " . $mesiaceRoku[1] . ".";
 
-
-    //
-    // zreťazenie poľa
-    //
-
+    echo $jar ."<br>". $leto ."<br>". $jesen ."<br>". $zima;
 
 
     ?>
