@@ -28,10 +28,6 @@
         </div>
     </section>
 
-    <footer>
-        <p>© 2024 Moja Webová Stránka. Všetky práva vyhradené.</p>
-        <p>Kontakt: <a href="tel:+421123456789">+421 12 345 6789</a></p>
-        <p>Email: <a href="mailto:info@peter.sk">info@peter.sk</a></p>
-    </footer>
-</body>
-</html>
+    <?php
+    include "assets/partials/footer.php";
+?>

@@ -31,5 +31,5 @@
             </article>
         </section>
         <?php
-    include "assets/partials/header.php";
+    include "assets/partials/footer.php";
 ?>
