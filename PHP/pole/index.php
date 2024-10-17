@@ -52,7 +52,7 @@
     //výpis prvku
     //
 
-    echo "Zimne mesiace su: " . $mesiaceRoku[11] ."". $mesiaceRoku[12] .    "". $mesiaceRoku[0] ."". $mesiaceRoku[1] . "."
+    echo "Zimne mesiace su: " . $mesiaceRoku[11] . " " . $mesiaceRoku[0] . " " . $mesiaceRoku[1] . ".";
 
 
     //
