@@ -11,6 +11,7 @@
     array_push($miesta, "Koš", "Prievidza", "Čavoj");
     $pocet_miest = count($miesta);
     echo "Pocet miest na dovolenke, ktore chcete navstívit: " . $pocet_miest . "<br>";
+    echo "<br>";
     echo "Zoznam miest:<br>";
     foreach ($miesta as $miesto) {
         echo $miesto . "<br>";
