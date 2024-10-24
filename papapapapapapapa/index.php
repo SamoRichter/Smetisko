@@ -13,6 +13,11 @@
 
     if ($jeden >= $jeden2 && $jeden >= $jeden3) {
         echo "cislo " . "$jeden " .  "je najvacsie"; }
+        else if ($jeden2 >= $jeden3 && $jeden2 >= $jeden) {
+        echo "cislo ". "$jeden2". "je najvacsie"; }
+        else {
+        echo "cislo ". "$jeden3". "je najvacsie"; 
+        }
 
     if ($jeden2 >= $jeden && $jeden2 >= $jeden3) {
         echo "cislo " . "$jeden2 " .  " je najvacsie"; }
