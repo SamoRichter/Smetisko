@@ -20,6 +20,16 @@
     if ($jeden3 > $jeden && $jeden3 > $jeden2) {
      echo "cislo " . "$jeden3 " .  " je najvacsie"; }
 
+     if ($jeden < $jeden2 && $jeden < $jeden3) {
+        echo "cislo " . "$jeden " .  "je najmensie"; }
+   
+       if ($jeden2 < $jeden && $jeden2 < $jeden3) {
+        echo "cislo " . "$jeden2 " .  " je najmensie"; }
+   
+       if ($jeden3 < $jeden && $jeden3 < $jeden2) {
+        echo "cislo " . "$jeden3 " .  " je najmensie"; }
+   
+
     ?>
 </body>
 </html>
