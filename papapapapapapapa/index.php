@@ -12,13 +12,13 @@
     $jeden3 = 8;
 
     if ($jeden > $jeden2 && $jeden > $jeden3) {
-    } echo "cislo je najvacsie";
+     echo "cislo " . "$jeden " .  "je najvacsie"; }
 
     if ($jeden2 > $jeden && $jeden2 > $jeden3) {
-    } echo "cislo je najvacsie";
+     echo "cislo " . "$jeden2 " .  " je najvacsie"; }
 
     if ($jeden3 > $jeden && $jeden3 > $jeden2) {
-    } echo "cislo je najvacsie";
+     echo "cislo " . "$jeden3 " .  " je najvacsie"; }
 
     ?>
 </body>
