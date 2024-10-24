@@ -17,6 +17,10 @@
     else {
         echo "trojuholnik zo stranami " . "$a cm, $b cm, $c cm " . "sa neda zostavit"; }
 
+
+    if ( ($a*$a + $b*$b) == $c*$c || ($a*$a + $c*$c) == $b*$b || ($b*$b + $c*$c) == $a*$a) {
+        echo "trojuholnik je pravouhly";
+    }
 ?>
 </body>
 </html>
