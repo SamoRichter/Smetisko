@@ -11,7 +11,14 @@
     $jeden2 = 14;
     $jeden3 = 8;
 
-    $jeden4 = 0;
+    if ($jeden > $jeden2 && $jeden > $jeden3) {
+    } echo "cislo je najvacsie";
+
+    if ($jeden2 > $jeden1 && $jeden2 > $jeden3) {
+    } echo "cislo je najvacsie";
+
+    if ($jeden3 > $jeden && $jeden3 > $jeden2) {
+    } echo "cislo je najvacsie";
 
     ?>
 </body>
