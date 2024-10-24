@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>toto</title>
 </head>
 <body>
 <?php
     $miesta = array("Vlkolínec", "Kalameny", "Suchá Belá", "Plačlivô", "Banská Štiavnica", "Slavkovský štít", "Vtáčnik", "Útulňa Andrejcová");
     array_push($miesta, "Čavoj", "Bojnice", "Temešská Skala");
     $pocet_miest = count($miesta);
-    echo "Počet miest na dovolenke, ktoré chcete navštíviť: " . $pocet_miest . "<br>";
+    echo "Pocet miest na dovolenke, ktore chcete navstívit: " . $pocet_miest . "<br>";
     echo "Zoznam miest:<br>";
     foreach ($miesta as $miesto) {
         echo $miesto . "<br>";
