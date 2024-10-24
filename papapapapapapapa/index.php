@@ -7,9 +7,9 @@
 </head>
 <body>
     <?php
-    $jeden = 55;
-    $jeden2 = 14;
-    $jeden3 = 8;
+    $jeden = 5;
+    $jeden2 = 8;
+    $jeden3 = 12;
 
     if ($jeden > $jeden2 && $jeden > $jeden3) {
      echo "cislo " . "$jeden " .  "je najvacsie"; }
