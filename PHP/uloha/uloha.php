@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-    $miesta = array("Vlkolínec", "Kalameny", "Suchá Belá", "Plačlivô", "Banská Štiavnica", "Slavkovský štít", "Vtáčnik", "Útulňa Andrejcová");
+    $miesta = ["Vlkolínec", "Kalameny", "Suchá Belá", "Plačlivô", "Banská Štiavnica", "Slavkovský štít", "Vtáčnik", "Útulňa Andrejcová"];
     array_push($miesta, "Koš", "Prievidza", "Čavoj");
     $pocet_miest = count($miesta);
     echo "Pocet miest na dovolenke, ktore chcete navstívit: " . $pocet_miest . "<br>";
