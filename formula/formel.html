@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrácia</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="ho.php" method="post">
+        <h2>Registrácia</h2>
+        <label for="Meno">Meno</label>
+        <br>
+        <input type="text" id="Meno" name="Meno"  >
+        <br>
+        <label for="Priezvisko">Priezvisko</label>
+        <br>
+        <input type="text" id="Priezvisko" name="Priezvisko"  >
+        <br>
+        <label for="Email">E-mail</label>
+        <br>
+        <input type="email" id="Email" name="Email" >
+        <br>
+        <label for="Heslo">Heslo</label>
+        <br>
+        <input type="password" id="Heslo" name="Heslo"  >
+        <br>
+        <label for="Potvrdenie_Hesla">Potvrdenie hesla</label>
+        <br>
+        <input type="password" id="Potvrdenie_Hesla" name="Potvrdenie_Hesla"  >
+        <br>
+        <div class="radio-group">
+            <label>Pohlavie</label>
+            <label><input type="radio" name="Pohlavie" value="muz" > Muž</label>
+            <label><input type="radio" name="Pohlavie" value="zena" > Žena</label>
+            <label><input type="radio" name="Pohlavie" value="lgbt" > Helikopter</label>
+        </div>
+
+        <label for="Krajina">Krajina</label>
+        <br>
+        <select id="country" name="Krajina" >
+            <option value="Slovensko">Slovensko</option>
+            <option value="Česká republika">Česká republika</option>
+            <option value="Maďarsko">Maďarsko</option>
+            <option value="Poľsko">Poľsko</option>
+        </select>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="klik" name="klik" >
+            <label for="klik">Súhlasím s podmienkami používania</label>
+        </div>
+
+        <button type="submit">Prihlasiť sa</button>
+    </form>
+</body>
+</html>

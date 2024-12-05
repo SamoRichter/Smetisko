@@ -10,47 +10,47 @@
 <body>
     <div class="formular">
         <h1>Registrácia</h1>
-        <form action="">
+        <form action="tuto.php" method="post">
             <div class="riadok">
                 <div class="text">
-                    <label for="fname">Meno:</label>
+                    <label for="fname"><span style="color: red;">*</span>Meno:</label>
                 </div>
                 <div class="input">
-                    <input type="text" id="fname" name="Meno"  required>
+                    <input type="text" id="fname" name="Meno"   >
                 </div>
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="lname">Priezvisko:</label>
+                    <label for="lname"><span style="color: red;">*</span>Priezvisko:</label>
                 </div>
                 <div class="input">
-                    <input type="text" id="lname" name="Priezvisko"  required>
+                    <input type="text" id="lname" name="Priezvisko"  >
                 </div>
             </div>
 
             <div class="riadok">
                 <div class="text">
-                    <label for="email">Email:</label>
+                    <label for="email"><span style="color: red;">*</span>Email:</label>
                 </div>
                 <div class="input">
-                    <input type="email" id="email" name="Email" pattern=".+@example\.com" required >
+                    <input type="email" id="email" name="Email"  >
                 </div>
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="pass">Heslo:</label>
+                    <label for="pass"><span style="color: red;">*</span>Heslo:</label>
                 </div>
                 <div class="input">
-                    <input type="password" id="pass" name="Heslo" required >
+                    <input type="password" id="pass" name="Heslo"  >
                 </div>
                
             </div>
             <div class="riadok">
                 <div class="text">
-                    <label for="password_confirm">Potvrdenie hesla:</label>
+                    <label for="password_confirm"><span style="color: red;">*</span>Potvrdenie hesla:</label>
                 </div>
                 <div class="input">
-                    <input type="password" id="password_confirm" name="Potvrdenie Hesla"required >
+                    <input type="password" id="password_confirm" name="Potvrdenie_Hesla">
                 </div>
                
             </div> 
@@ -59,15 +59,15 @@
                     <label for="pohlavie">Pohlavie:</label>
                 </div>
                 <div class="input">
-                    <hr><input class="pohlavie" type="radio" id="html" name="fav_language" value="Muž"> Muž
-                    <input class="pohlavie" type="radio" id="css" name="fav_language" value="CSS"> Žena  <hr>
+                    <hr><input class="pohlavie" type="radio" id="html" name="Pohlavie" value="Muž"> Muž
+                    <input class="pohlavie" type="radio" id="css" name="Pohlavie" value="Žena"> Žena  <hr>
                 </div>
                
             </div>   
             <div class="riadok">
                 <div class="input">
-                    <input class="pohlavie" type="checkbox" id="vehicle1" name="vehicle1" value="Bike" required >
-                    <label for="vehicle1"> Súhlasím s podmienkami</label>
+                    <input class="pohlavie" type="checkbox" id="Suhlas" name="Suhlas" value="Suhlas"  >
+                    <label for="vehicle1"><span style="color: red;">*</span>Súhlasím s podmienkami</label>
                 </div>
                
             </div> 
@@ -76,7 +76,8 @@
                   <label for="krajina">Krajina:</label>
                 </div>
                 <div class="input">
-                  <select id="krajina" name="Krajina" required style="width: 500px; height: 44px; border-radius: 5px;">
+                  <select id="krajina" name="Krajina"  style="width: 500px; height: 44px; border-radius: 5px;">
+                    <option value="Vyber">Vyber si krajinu</option>
                     <option value="Slovensko">Slovensko</option>
                     <option value="Česko">Česko</option>
                     <option value="Maďarsko">Maďarsko :c</option>
@@ -92,6 +93,7 @@
                   <textarea id="poznamky" name="subject" style="height:150px; width:500px;border-radius: 5px;" ></textarea>
                 </div>
               </div>
+              <span style="color: red; font-size: small;">* Povinné pole</span>
               <div class="riadok">
                 <input class="button" type="submit" value="Odoslať">
               </div>
