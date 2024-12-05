@@ -7,27 +7,19 @@
 </head>
 <body>
     <?php
-    $Cislo_1 = $_POST['prve_cislo'];
-    $Cislo_2 = $_POST['druhe_cislo'];
-    $Znak = $_POST['Znaky'];
-
-
-    if ($Znak == 'Scitanie'){
-        echo $Cislo_1 + $Cislo_2;
-    }
-    elseif($Znak == 'Odcitanie'){
-        echo $Cislo_1 - $Cislo_2;
-    }
-    elseif($Znak == 'Nasobenie'){
-        echo $Cislo_1 * $Cislo_2;
-    }
-    else{
-        echo $Cislo_1 / $Cislo_2;
-    }
-
-
-
-
-?>
+        $prve = $_POST['prve'];
+        $druhe = $_POST['druhe'];
+        $znamienko = $_POST['znamienko'];
+ 
+        if($znamienko == 'plus'){
+            echo $prve . ' + ' . $druhe . ' = ' . $prve + $druhe;
+        } elseif($znamienko == 'minus'){
+            echo $prve . ' - ' . $druhe . ' = ' . $prve - $druhe;
+        } elseif($znamienko == 'krat'){
+            echo $prve . ' * ' . $druhe . ' = ' . $prve * $druhe;
+        }else{
+            echo $prve . ' / ' . $druhe . ' = ' . $prve / $druhe;
+        }
+    ?>
 </body>
 </html>
