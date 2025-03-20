@@ -1,0 +1,44 @@
+Report o predaji
+Celkový obrat: 5 120 €
+Najpredávanejší produkt je: smart_hodinky (8 ks)
+Priemerná cena produktov: 423 €
+Položky so zľavou 7 %
+
+ProduktPôvodná cenaZľava (7 %)Zľavnená cena
+
+telefon
+500 €
+35 €
+465 €
+
+
+smart_hodinky
+120 €
+8 €
+112 €
+
+
+airpods
+120 €
+8 €
+112 €
+
+
+notebook
+900 €
+63 €
+837 €
+
+
+tablet
+450 €
+32 €
+419 €
+
+
+telka
+450 €
+32 €
+419 €
+
+
